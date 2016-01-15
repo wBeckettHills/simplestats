@@ -13,3 +13,6 @@ def test_empty_list():
 def test_float_mean():
     assert_almost_equals(mean([5,6]),5.5)
 #test_float_mean()
+    
+def test_str_list_mean():
+    assert_equal(mean(['1','2','3']),2.0)
